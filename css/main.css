@@ -1,0 +1,60 @@
+body {
+    font-family: Akkurat,Helvetica,sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    width: 100%;
+    padding: 0px;
+
+}
+
+.main-picture {
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+
+.main-picture h1 {
+    text-shadow: 2px 2px 20px #ffffff; 
+    position: relative;
+    z-index: 2; 
+    margin: 0 auto;
+    max-width: 580px; 
+    margin-top: 230px;
+
+    color: #364962;
+}
+
+.main-picture img {
+    position: absolute; 
+    left: 0;
+    top: 0;
+    width:100%; 
+    height: auto; 
+    opacity: 0.3; 
+    filter: sepia(100%);
+}
+
+
+.chart {
+    width: 100%;
+}
+
+.chart .header {
+    fill: #364962;
+    font-size: 30px;
+    font-weight: 400;
+
+    cursor: pointer;
+}
+
+.chart .text {
+    font-size: 18px;
+    line-height: 28px;
+    fill: #90a1b8;
+}
