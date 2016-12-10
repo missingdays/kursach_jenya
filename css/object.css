@@ -26,11 +26,19 @@ img {
 }
 
 h1 {
-    fill: #364962;
+    color: #364962;
     font-size: 30px;
     font-weight: 400;
 
 }
+
+h3 {
+    color: #364962;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
 
 .text {
     font-size: 18px;
@@ -41,4 +49,40 @@ h1 {
 .date {
 	color: #90a1b8;
 	font-size: 21px;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 800px;
+}
+ 
+li {
+    font-size: 20px;
+    border-bottom: 1px solid #ccc;
+    width: 800px;
+}
+ 
+li:last-child {
+    border: none;
+}
+ 
+li a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+    width: 800px;
+ 
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+li a:hover {
+    font-size: 30px;
+    background: #f6f6f6;
 }
