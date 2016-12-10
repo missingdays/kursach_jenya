@@ -1,0 +1,95 @@
+body {
+    font-family: Akkurat,Helvetica,sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+
+    margin: 0px;
+    padding: 0px;
+}
+
+
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #757575
+}
+
+.main {
+    margin-top: 50px;
+}
+
+.input-wrapper {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+
+    height: 100px;
+}
+
+.input {
+    width: 33%;
+    float: right;
+    margin-right: 100px;
+    display: block;
+
+    padding: 5px 15px 7px 15px;
+    border-radius: 20px;
+    border: 1px solid #c6d2db;
+    border-top: 1px solid #b4c1cb;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.08);
+    float: right;
+    background: #e8edf1;
+
+}
+
+.input input {
+    width: 100%;
+    border: 0;
+    border-radius: 20px;
+    background: transparent;
+    height: 32;
+    color: #b4bdc4;
+    text-shadow: 0 1px 1px #fff;
+    color: rgb(180, 189, 196);
+
+    font-size: 17px;
+}
+
+.input input:focus {
+    outline: none;
+}
+
+.main .element {
+    max-width: 900px;
+    margin-left: 120px;
+
+    margin-top: 50px;
+
+    height: 350px;
+}
+
+.main .element img {
+    float: left;
+    margin: 20px;
+    margin-right: 50px;
+    margin-top: 0px;
+
+    width: 200px;
+}
+
+.main .element .head {
+    color: #364962;
+    font-size: 30px;
+    font-weight: 400;
+
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.main .element .text {
+    font-size: 18px;
+    line-height: 28px;
+    color: #80a1b8;
+
+    margin-top: 20px;
+}
